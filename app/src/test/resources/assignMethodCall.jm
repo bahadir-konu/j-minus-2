@@ -1,0 +1,11 @@
+main() {
+    int a;
+
+    a = increment(0);
+
+    print a;
+}
+
+int increment(int val) {
+    return val + 1;
+}

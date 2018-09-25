@@ -1,0 +1,7 @@
+main() {
+    foo(5);
+}
+
+void foo(int a) {
+    print a;
+}

@@ -1,0 +1,8 @@
+main() { foo(5); }
+
+int foo(int a) {
+    int a; int b; int c;
+    a = 0;
+    print a;
+    return a;
+}

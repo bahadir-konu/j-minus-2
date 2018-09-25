@@ -1,0 +1,16 @@
+main() {
+    int a; a = 0;
+    foo(a);
+}
+
+int foo(int valFoo) {
+    int a; a = 10;
+    show(5);
+    return 0;
+}
+
+int show(int valShow) {
+    int a;
+    print a;
+    return 0;
+}

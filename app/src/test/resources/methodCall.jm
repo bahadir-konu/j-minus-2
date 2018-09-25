@@ -1,0 +1,11 @@
+main() {
+    int a;
+    a = 5;
+    show(a, a + 5);
+}
+
+int show(int valA, int valB) {
+    print valA;
+    print valB;
+    return 0;
+}

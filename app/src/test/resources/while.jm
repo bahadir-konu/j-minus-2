@@ -1,0 +1,15 @@
+main() {
+    foo(5);
+}
+
+int foo(int a) {
+    int a; int b; int c;
+    a = 0; b = 4; c = 0;
+    while (a < b) {
+        c = a;
+        print c;
+        a = a + 1;
+    }
+
+    return c;
+}

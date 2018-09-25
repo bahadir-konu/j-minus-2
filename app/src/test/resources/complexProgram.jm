@@ -1,0 +1,11 @@
+main() {
+    int a; a = 5;
+    while (a < 8) {
+        show(a);
+        a = a + 1;
+    }
+}
+
+int show(int val) {
+    print val; val = val + 100; return 0;
+}

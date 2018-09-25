@@ -1,0 +1,8 @@
+main() {
+    int a; a = 5;
+
+    if (a == 2)
+        print a;
+    else
+        print 0;
+}

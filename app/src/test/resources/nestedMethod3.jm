@@ -1,0 +1,19 @@
+main() {
+int a; a = 0;
+foo(a);
+print a;
+}
+
+int foo(int valFoo) {
+    int a; a = 10;
+    print a;
+    bar(666);
+    return 0;
+}
+
+int bar(int valBar) {
+    int a; a = 2;
+    print valBar;
+    print a;
+    return 0;
+}
